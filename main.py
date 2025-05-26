@@ -191,7 +191,9 @@ def cmd_start(msg):
         "💰 Mostrar saldo actual /balance\n"
         "➕ Ingresar un monto determinado /ingresar\n"
         "➖ Extraer un monto determinado /extraer\n"
-        "📜 Ver historial /historial"
+        "📜 Ver historial /historial\n"
+        "📭 Exportar el historial /exportar\n"
+        "📊 Mostrar grafico(doted) del historial /grafica"
     )
     
     bot.send_message(msg.chat.id, ans)
